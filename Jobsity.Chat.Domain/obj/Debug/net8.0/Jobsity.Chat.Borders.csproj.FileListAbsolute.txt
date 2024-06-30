@@ -1,0 +1,13 @@
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/bin/Debug/net8.0/Jobsity.Chat.Borders.deps.json
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/bin/Debug/net8.0/Jobsity.Chat.Borders.dll
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/bin/Debug/net8.0/Jobsity.Chat.Borders.pdb
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.csproj.AssemblyReference.cache
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.AssemblyInfoInputs.cache
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.AssemblyInfo.cs
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.csproj.CoreCompileInputs.cache
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.sourcelink.json
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.dll
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/refint/Jobsity.Chat.Borders.dll
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/Jobsity.Chat.Borders.pdb
+/Users/ypedro/dev/jobsity-samples/Jobsity.Chat/Jobsity.Chat.Borders/obj/Debug/net8.0/ref/Jobsity.Chat.Borders.dll

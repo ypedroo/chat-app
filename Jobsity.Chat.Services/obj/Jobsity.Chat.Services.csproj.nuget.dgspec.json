@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Services/Jobsity.Chat.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/Jobsity.Chat.Bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/Jobsity.Chat.Bot.csproj",
+        "projectName": "Jobsity.Chat.Bot",
+        "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/Jobsity.Chat.Bot.csproj",
+        "packagesPath": "/Users/ypedro/.nuget/packages/",
+        "outputPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ypedro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj": {
+                "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj",
+        "projectName": "Jobsity.Chat.Domain",
+        "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj",
+        "packagesPath": "/Users/ypedro/.nuget/packages/",
+        "outputPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ypedro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/Jobsity.Chat.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/Jobsity.Chat.Repositories.csproj",
+        "projectName": "Jobsity.Chat.Repositories",
+        "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/Jobsity.Chat.Repositories.csproj",
+        "packagesPath": "/Users/ypedro/.nuget/packages/",
+        "outputPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ypedro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj": {
+                "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Services/Jobsity.Chat.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Services/Jobsity.Chat.Services.csproj",
+        "projectName": "Jobsity.Chat.Services",
+        "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Services/Jobsity.Chat.Services.csproj",
+        "packagesPath": "/Users/ypedro/.nuget/packages/",
+        "outputPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ypedro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/Jobsity.Chat.Bot.csproj": {
+                "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Bot/Jobsity.Chat.Bot.csproj"
+              },
+              "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj": {
+                "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Domain/Jobsity.Chat.Domain.csproj"
+              },
+              "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/Jobsity.Chat.Repositories.csproj": {
+                "projectPath": "/Users/ypedro/dev/ypedro-soln/Jobsity.Chat.Repositories/Jobsity.Chat.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

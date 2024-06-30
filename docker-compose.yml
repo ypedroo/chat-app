@@ -1,0 +1,27 @@
+﻿services:
+  chat:
+    build: ./Jobsity.Chat
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      - ApplicationConfig__MessagesShown=50
+      - ApplicationConfig__ConnectionString=Server=db;Database=JobsityChat;User Id=SA;Password=Str0ngPa$$w0rd;Trusted_Connection=True;MultipleActiveResultSets=true;Trust Server Certificate=true;integrated security=false;
+      - ApplicationConfig__RabbitMq__Hostname=rabbitmq
+      - ApplicationConfig__RabbitMq__QueueName=ChatQueue
+      - ApplicationConfig__StockApi__BaseUrl=https://stooq.com/
+      - ApplicationConfig__StockApi__GetStockEndpoint=q/l/?s={0}&f=sd2t2ohlcv&h&e=csv
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "Str0ngPa$$w0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
